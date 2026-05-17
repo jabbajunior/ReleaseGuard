@@ -24,7 +24,7 @@ readonly STABLE_IMAGE_TAG_FILE="$STATE_PATH/stable_image.tag"
 readonly PREVIOUS_IMAGE_DIGEST_FILE="$STATE_PATH/previous_image.digest"
 readonly PREVIOUS_IMAGE_TAG_FILE="$STATE_PATH/previous_image.tag"
 
-readonly LAST_DEPLOY_STATUS_FILE="$STATE_PATH/last_deploy_status.txt"
+readonly DEPLOY_HISTORY_LOG="$LOG_PATH/deploy_history.log"
 
 readonly STABLE_CONTAINER_NAME="my-app"
 readonly CANDIDATE_CONTAINER_NAME="my-app-dev"

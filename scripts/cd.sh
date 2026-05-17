@@ -98,7 +98,7 @@ cleanup_failed_deploy() {
 
 
     # Record the failed deployment for later inspection.
-    echo "$(date +"%Y-%m-%d %I:%M:%S %p") [FAILURE] $CANDIDATE_IMAGE_TAG deployment failed!" >> "$LAST_DEPLOY_STATUS_FILE"
+    echo "$(date +"%Y-%m-%d %I:%M:%S %p") [FAILURE] $CANDIDATE_IMAGE_TAG deployment failed!" >> "$DEPLOY_HISTORY_LOG"
 
     # Emit a final failure log for the pipeline output.
     log "FATAL" "$CANDIDATE_IMAGE_TAG deployment failed!"
@@ -175,7 +175,7 @@ cleanup_successful_deploy() {
         cleanup_failed_deploy
     fi
 
-    echo "$(date +"%Y-%m-%d %I:%M:%S %p") [SUCCESS] $CANDIDATE_IMAGE_TAG deployment succeeded!" >> "$LAST_DEPLOY_STATUS_FILE"
+    echo "$(date +"%Y-%m-%d %I:%M:%S %p") [SUCCESS] $CANDIDATE_IMAGE_TAG deployment succeeded!" >> "$DEPLOY_HISTORY_LOG"
 
     # Remove lingering artifacts
     rm -f "$CANDIDATE_IMAGE_DIGEST_FILE" "$CANDIDATE_IMAGE_TAG_FILE"
