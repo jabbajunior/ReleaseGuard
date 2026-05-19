@@ -26,9 +26,10 @@ This diagram shows the high-level flow between `scripts/ci.sh` and `scripts/cd.s
 
 ### Demo Video
 
-_Video placeholder coming soon._
+https://github.com/user-attachments/assets/1e9cd6b8-d8ff-4610-871b-d19936b17066
 
-This section will eventually show a short walkthrough of running the pipeline locally and through the self-hosted runner.
+This section describes the project goals, describes the pipeline flow and demonstrates a short walkthrough of running through a self-hosted runner.
+
 
 ## Getting Started
 
