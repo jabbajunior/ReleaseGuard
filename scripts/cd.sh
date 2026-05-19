@@ -175,6 +175,7 @@ cleanup_successful_deploy() {
         cleanup_failed_deploy
     fi
 
+    log "INFO" "$CANDIDATE_IMAGE_TAG deployment succeeded!"
     echo "$(date +"%Y-%m-%d %I:%M:%S %p") [SUCCESS] $CANDIDATE_IMAGE_TAG deployment succeeded!" >> "$DEPLOY_HISTORY_LOG"
 
     # Remove lingering artifacts
