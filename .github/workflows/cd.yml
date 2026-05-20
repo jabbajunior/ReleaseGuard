@@ -1,13 +1,14 @@
 # CD workflow
 #
-# This workflow runs the project's CD pipeline whenever a pull request is merged
+# This workflow runs the project's CD pipeline whenever a pull request is closed
+# or the workflow is triggered manually.
 
 name: CD
 
 on:
   pull_request:
-    types: 
-    - closed
+    types:
+      - closed
   workflow_dispatch:
 
 # Use Bash as the default shell for all run commands in this workflow.
@@ -21,7 +22,7 @@ permissions:
   contents: read
 
 jobs:
-  ci-pipeline:
+  cd-pipeline:
     # Human-readable name shown in the GitHub Actions UI.
     name: Run CD pipeline
 

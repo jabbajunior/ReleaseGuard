@@ -1,7 +1,7 @@
 [project]
 name = "bash-cicd-pipeline"
 version = "0.1.0"
-description = "Add your description here"
+description = "Learning project for a Bash-based CI/CD pipeline around a FastAPI app."
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [

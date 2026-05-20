@@ -2,6 +2,7 @@
 #
 # This workflow runs the project's CI pipeline whenever a pull request is
 # opened, updated with new commits, reopened, or marked as ready for review.
+# or the workflow is triggered manually
 
 name: CI
 
