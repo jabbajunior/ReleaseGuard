@@ -122,6 +122,10 @@ gh workflow run CD --ref <branch>
 - **Name**: Nishant Singh
 - **GitHub**: [jabbajunior](https://github.com/jabbajunior)
 
+## Acknowledgements
+
+This project was built with assistance from OpenAI Codex for code review, debugging, documentation, and project guidance.
+
 ## Further Reading
 
 For a reflection on the main lessons from building this project, see [Project Learnings](docs/LEARNINGS.md).
