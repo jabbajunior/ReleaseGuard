@@ -120,4 +120,4 @@ gh workflow run CD --ref <branch>
 
 ## Further Reading
 
-Deeper we go, more technical
+For a reflection on the main lessons from building this project, see [Project Learnings](docs/LEARNINGS.md).
