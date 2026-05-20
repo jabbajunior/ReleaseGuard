@@ -117,6 +117,11 @@ gh workflow run CD --ref <branch>
 - The `CD` workflow assumes the self-hosted runner already has a checkout of this repository.
 - The `CD` workflow currently triggers on any closed pull request. If you only want deploys on merged pull requests, that behavior needs an additional guard.
 
+## Author
+
+- **Name**: Nishant Singh
+- **GitHub**: [jabbajunior](https://github.com/jabbajunior)
+
 ## Further Reading
 
 For a reflection on the main lessons from building this project, see [Project Learnings](docs/LEARNINGS.md).
