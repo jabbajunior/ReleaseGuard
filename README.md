@@ -1,4 +1,4 @@
-# Bash CI/CD Pipeline Learning Project
+# ReleaseGuard
 
 
 ## Overview
